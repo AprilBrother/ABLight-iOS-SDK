@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2686ADC19DAB36400AB4AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2686ADB19DAB36400AB4AAF /* AppDelegate.swift */; };
+		E2686ADE19DAB36400AB4AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2686ADD19DAB36400AB4AAF /* ViewController.swift */; };
+		E2686AE119DAB36400AB4AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2686ADF19DAB36400AB4AAF /* Main.storyboard */; };
+		E2686AE319DAB36400AB4AAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2686AE219DAB36400AB4AAF /* Images.xcassets */; };
+		E2686AE619DAB36400AB4AAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2686AE419DAB36400AB4AAF /* LaunchScreen.xib */; };
+		E2686AF219DAB36400AB4AAF /* ABLightSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2686AF119DAB36400AB4AAF /* ABLightSDKDemoTests.swift */; };
+		E2686AFD19DAB3A200AB4AAF /* LightDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2686AFB19DAB3A200AB4AAF /* LightDetail.swift */; };
+		E2686AFF19DAB46100AB4AAF /* libABLightSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2686AFE19DAB46100AB4AAF /* libABLightSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2686AEC19DAB36400AB4AAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2686ACE19DAB36400AB4AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2686AD519DAB36400AB4AAF;
+			remoteInfo = ABLightSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2686AD619DAB36400AB4AAF /* ABLightSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABLightSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2686ADA19DAB36400AB4AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2686ADB19DAB36400AB4AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2686ADD19DAB36400AB4AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2686AE019DAB36400AB4AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2686AE219DAB36400AB4AAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2686AE519DAB36400AB4AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E2686AEB19DAB36400AB4AAF /* ABLightSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABLightSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2686AF019DAB36400AB4AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2686AF119DAB36400AB4AAF /* ABLightSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABLightSDKDemoTests.swift; sourceTree = "<group>"; };
+		E2686AFB19DAB3A200AB4AAF /* LightDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightDetail.swift; sourceTree = "<group>"; };
+		E2686AFC19DAB3A200AB4AAF /* ABLightSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABLightSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2686AFE19DAB46100AB4AAF /* libABLightSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libABLightSDK.a; path = ../ABLightSDK/libABLightSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2686AD319DAB36400AB4AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2686AFF19DAB46100AB4AAF /* libABLightSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2686AE819DAB36400AB4AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2686ACD19DAB36400AB4AAF = {
+			isa = PBXGroup;
+			children = (
+				E2686AFE19DAB46100AB4AAF /* libABLightSDK.a */,
+				E2686AD819DAB36400AB4AAF /* ABLightSDKDemo */,
+				E2686AEE19DAB36400AB4AAF /* ABLightSDKDemoTests */,
+				E2686AD719DAB36400AB4AAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2686AD719DAB36400AB4AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2686AD619DAB36400AB4AAF /* ABLightSDKDemo.app */,
+				E2686AEB19DAB36400AB4AAF /* ABLightSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2686AD819DAB36400AB4AAF /* ABLightSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2686AFB19DAB3A200AB4AAF /* LightDetail.swift */,
+				E2686AFC19DAB3A200AB4AAF /* ABLightSDKDemo-Bridging-Header.h */,
+				E2686ADB19DAB36400AB4AAF /* AppDelegate.swift */,
+				E2686ADD19DAB36400AB4AAF /* ViewController.swift */,
+				E2686ADF19DAB36400AB4AAF /* Main.storyboard */,
+				E2686AE219DAB36400AB4AAF /* Images.xcassets */,
+				E2686AE419DAB36400AB4AAF /* LaunchScreen.xib */,
+				E2686AD919DAB36400AB4AAF /* Supporting Files */,
+			);
+			path = ABLightSDKDemo;
+			sourceTree = "<group>";
+		};
+		E2686AD919DAB36400AB4AAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2686ADA19DAB36400AB4AAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2686AEE19DAB36400AB4AAF /* ABLightSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2686AF119DAB36400AB4AAF /* ABLightSDKDemoTests.swift */,
+				E2686AEF19DAB36400AB4AAF /* Supporting Files */,
+			);
+			path = ABLightSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		E2686AEF19DAB36400AB4AAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2686AF019DAB36400AB4AAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2686AD519DAB36400AB4AAF /* ABLightSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2686AF519DAB36400AB4AAF /* Build configuration list for PBXNativeTarget "ABLightSDKDemo" */;
+			buildPhases = (
+				E2686AD219DAB36400AB4AAF /* Sources */,
+				E2686AD319DAB36400AB4AAF /* Frameworks */,
+				E2686AD419DAB36400AB4AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABLightSDKDemo;
+			productName = ABLightSDKDemo;
+			productReference = E2686AD619DAB36400AB4AAF /* ABLightSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2686AEA19DAB36400AB4AAF /* ABLightSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2686AF819DAB36400AB4AAF /* Build configuration list for PBXNativeTarget "ABLightSDKDemoTests" */;
+			buildPhases = (
+				E2686AE719DAB36400AB4AAF /* Sources */,
+				E2686AE819DAB36400AB4AAF /* Frameworks */,
+				E2686AE919DAB36400AB4AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2686AED19DAB36400AB4AAF /* PBXTargetDependency */,
+			);
+			name = ABLightSDKDemoTests;
+			productName = ABLightSDKDemoTests;
+			productReference = E2686AEB19DAB36400AB4AAF /* ABLightSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2686ACE19DAB36400AB4AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AprilBrother;
+				TargetAttributes = {
+					E2686AD519DAB36400AB4AAF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E2686AEA19DAB36400AB4AAF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E2686AD519DAB36400AB4AAF;
+					};
+				};
+			};
+			buildConfigurationList = E2686AD119DAB36400AB4AAF /* Build configuration list for PBXProject "ABLightSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2686ACD19DAB36400AB4AAF;
+			productRefGroup = E2686AD719DAB36400AB4AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2686AD519DAB36400AB4AAF /* ABLightSDKDemo */,
+				E2686AEA19DAB36400AB4AAF /* ABLightSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2686AD419DAB36400AB4AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2686AE119DAB36400AB4AAF /* Main.storyboard in Resources */,
+				E2686AE619DAB36400AB4AAF /* LaunchScreen.xib in Resources */,
+				E2686AE319DAB36400AB4AAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2686AE919DAB36400AB4AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2686AD219DAB36400AB4AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2686ADE19DAB36400AB4AAF /* ViewController.swift in Sources */,
+				E2686ADC19DAB36400AB4AAF /* AppDelegate.swift in Sources */,
+				E2686AFD19DAB3A200AB4AAF /* LightDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2686AE719DAB36400AB4AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2686AF219DAB36400AB4AAF /* ABLightSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2686AED19DAB36400AB4AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2686AD519DAB36400AB4AAF /* ABLightSDKDemo */;
+			targetProxy = E2686AEC19DAB36400AB4AAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2686ADF19DAB36400AB4AAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2686AE019DAB36400AB4AAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2686AE419DAB36400AB4AAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2686AE519DAB36400AB4AAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2686AF319DAB36400AB4AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2686AF419DAB36400AB4AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2686AF619DAB36400AB4AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../ABLightSDK/Headers,
+				);
+				INFOPLIST_FILE = ABLightSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = ../ABLightSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ABLightSDKDemo/ABLightSDKDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E2686AF719DAB36400AB4AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../ABLightSDK/Headers,
+				);
+				INFOPLIST_FILE = ABLightSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = ../ABLightSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ABLightSDKDemo/ABLightSDKDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E2686AF919DAB36400AB4AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ABLightSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABLightSDKDemo.app/ABLightSDKDemo";
+			};
+			name = Debug;
+		};
+		E2686AFA19DAB36400AB4AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ABLightSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABLightSDKDemo.app/ABLightSDKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2686AD119DAB36400AB4AAF /* Build configuration list for PBXProject "ABLightSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2686AF319DAB36400AB4AAF /* Debug */,
+				E2686AF419DAB36400AB4AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2686AF519DAB36400AB4AAF /* Build configuration list for PBXNativeTarget "ABLightSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2686AF619DAB36400AB4AAF /* Debug */,
+				E2686AF719DAB36400AB4AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2686AF819DAB36400AB4AAF /* Build configuration list for PBXNativeTarget "ABLightSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2686AF919DAB36400AB4AAF /* Debug */,
+				E2686AFA19DAB36400AB4AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2686ACE19DAB36400AB4AAF /* Project object */;
+}

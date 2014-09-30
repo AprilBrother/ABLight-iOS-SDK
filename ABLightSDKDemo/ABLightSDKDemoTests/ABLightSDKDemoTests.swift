@@ -1,6 +1,6 @@
 //
-//  AprilLightSDKDemoTests.swift
-//  AprilLightSDKDemoTests
+//  ABLightSDKDemoTests.swift
+//  ABLightSDKDemoTests
 //
 //  Created by liaojinhua on 14-9-30.
 //  Copyright (c) 2014年 AprilBrother. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class AprilLightSDKDemoTests: XCTestCase {
+class ABLightSDKDemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
