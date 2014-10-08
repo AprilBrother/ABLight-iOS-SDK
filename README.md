@@ -1,7 +1,7 @@
 
 ## Docs
 
-* [Current documentation](//aprilbrother.github.io/aprilbeacon-ios-sdk/Documents/index.html)
+* [Current documentation](http://aprilbrother.github.io/aprillight-ios-sdk/Documents/index.html)
 * [Community for April Light](http://bbs.aprbrother.com)
 
 ## How to install
