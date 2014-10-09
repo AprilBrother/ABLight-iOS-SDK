@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Dj-cw-Unc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Dj-cw-Unc">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
+        <deployment defaultVersion="2048" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--ABLight-->
         <scene sceneID="8mF-17-xI9">
             <objects>
-                <tableViewController id="xY2-iM-AbI" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="xY2-iM-AbI" customClass="ViewController" customModule="ABLightSDKDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2zc-aP-dQN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
         <!--Light Detal View Controller-->
         <scene sceneID="whV-kD-Z1o">
             <objects>
-                <viewController id="Pma-iV-f19" customClass="LightDetalViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pma-iV-f19" customClass="LightDetalViewController" customModule="ABLightSDKDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X8f-hu-UUz"/>
                         <viewControllerLayoutGuide type="bottom" id="UmI-bE-9L3"/>

@@ -54,9 +54,9 @@
 @property (nonatomic, weak) id<ABLightManagerDelegate> delegate;
 
 /**
- * Start discover April light
- * Call lightManager:didDiscoverLight: when discovered
- * Will remove all discovered lights when this method be called
+ * Start discover April light.
+ * Call lightManager:didDiscoverLight: when discovered.
+ * Will remove all discovered lights when this method be called.
  * @see ABLightManagerDelegate
  *
  * @return void
