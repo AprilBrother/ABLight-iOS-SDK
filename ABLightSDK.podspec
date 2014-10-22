@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ABLightSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "April Light SDK for iOS, use this library communicate with April lights."
   s.homepage     = "https://github.com/AprilBrother/ABLight-iOS-SDK"
   s.author       = { "AprilBrother" => "tech@aprbrother.com" }
