@@ -27,7 +27,7 @@ class ViewController: UITableViewController, ABLightManagerDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "ShowLight" {
-            var vc = segue.destinationViewController as LightDetalViewController
+            var vc = segue.destinationViewController as! LightDetalViewController
             vc.light = sender as? ABLight
         }
     }
@@ -43,8 +43,8 @@ class ViewController: UITableViewController, ABLightManagerDelegate {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("LightCell", forIndexPath: indexPath) as UITableViewCell
-        let light = lightArray.objectAtIndex(indexPath.row) as ABLight
+        var cell = tableView.dequeueReusableCellWithIdentifier("LightCell", forIndexPath: indexPath) as! UITableViewCell
+        let light = lightArray.objectAtIndex(indexPath.row) as! ABLight
         cell.textLabel?.text = light.peripheral.name
         return cell
     }
@@ -54,7 +54,7 @@ class ViewController: UITableViewController, ABLightManagerDelegate {
     }
     
     //ABLightManagerDelegate method
-    func lightManager(manager:ABLightManager, didDiscoverLights lights:NSArray) {
+    func lightManager(manager: ABLightManager!, didDiscoverLights lights: [AnyObject]!) {
         self.refreshControl?.endRefreshing()
         lightArray.removeAllObjects()
         lightArray.addObjectsFromArray(lights)
